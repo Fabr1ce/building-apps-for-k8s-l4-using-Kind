@@ -39,6 +39,7 @@ which returns the name of the pod created
 which lists the new pod and its status
 
 3 - Clean up:
+
 Delete pods
    
 	 kubectl get pods
