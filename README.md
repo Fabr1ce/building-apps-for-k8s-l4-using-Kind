@@ -7,11 +7,16 @@ This repository is used to build a k8's cluster locally for testing before deplo
   kind create cluster
   
 The created cluster is verified using the following cmds:
-  kind get clusters which return the name of the cluster (kind)
-  kubectl cluster-info returns the k8's master and kubeDNS info
-  kubectl config get-contexts returns inactive and active contexts (kind-kind)
-  kubectl get nodes returns the kube-control-plane
-  kubectl get all -A returns all the nodes spun up by kind to launch the k8's cluster
+  kind get clusters 
+    which return the name of the cluster (kind)
+  kubectl get cluster-info 
+    returns the k8's master and kubeDNS info
+  kubectl config get-contexts 
+    returns inactive and active contexts (kind-kind)
+  kubectl get nodes 
+    returns the kube-control-plane
+  kubectl get all -A 
+    returns all the nodes spun up by kind to launch the k8's cluster
 
 2 - Second k8's is used with the yaml file to launc a pod:
     kubectl apply -f pod.yaml which returns the name of the pod created
