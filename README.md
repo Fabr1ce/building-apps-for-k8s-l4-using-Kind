@@ -1,4 +1,4 @@
-# building-apps-for-k8s-l4
+# building-apps-for-k8s-l4-using-Kind
 
 This repository is used to build a k8's cluster locally for testing using _kind_. The assumption here is that docker and kind are aleady installed locally, if not use the following links to install docker (https://docs.docker.com/engine/install/) and kind (https://kubernetes.io/docs/tasks/tools/).
 
